@@ -87,3 +87,6 @@ It will show an empty page.
 In order to go to the "Hello World" page, go to ```http://localhost:3000/hello-world```.
 
 In order to go to the "Kiwi" page, go to ```http://localhost:3000/kiwi```.
+
+## "build": "node --openssl-legacy-provider ./node_modules/webpack/bin/webpack"
+## "build": "node --openssl-legacy-provider && webpack && start index.html" or use liveserver ext.
